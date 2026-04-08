@@ -1,0 +1,413 @@
+find_hif: bootstrap = 0x2f051b
+WASP BootROM Ver. 1.3
+Nand Flash init
+otp_get_nand_table: 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+ONFI: Control Setting = 0xb45
+hdr: [0xbd004000 : 0xbd004000 : 0x3000 : 0xd0f63594]
+nand_load_fw: read 6 pages
+nand_load_fw: 0x10000 0x800 0xbd0047f0
+nand_load_fw: 0x20000 0x800 0xbd004ff0
+nand_load_fw: 0x30000 0x800 0xbd0057f0
+nand_load_fw: 0x40000 0x800 0xbd005ff0
+nand_load_fw: 0x50000 0x800 0xbd0067f0
+f/w 0 read complete, jumping to 0xbd004000
+initialize PLL & DDR
+
+sri
+Wasp 1.3
+Wasp (32bit) ddr1 init
+after wasp_ddr_initial_config
+setting for 40
+before ar7240_ddr_find_size
+reach waps maximum memory size 256MB
+after ar7240_ddr_find_size
+fw1: Nand Init
+leave FW1
+f/w 0 execution complete
+hdr: [0xa0100000 : 0xa0100000 : 0x2d000 : 0x32a6dc7c]
+nand_load_fw: read 90 pages
+nand_load_fw: 0x70000 0x800 0xa01007f0
+nand_load_fw: 0x80000 0x800 0xa0100ff0
+nand_load_fw: 0x90000 0x800 0xa01017f0
+nand_load_fw: 0xa0000 0x800 0xa0101ff0
+nand_load_fw: 0xb0000 0x800 0xa01027f0
+nand_load_fw: 0xc0000 0x800 0xa0102ff0
+nand_load_fw: 0xd0000 0x800 0xa01037f0
+nand_load_fw: 0xe0000 0x800 0xa0103ff0
+nand_load_fw: 0xf0000 0x800 0xa01047f0
+nand_load_fw: 0x100000 0x800 0xa0104ff0
+nand_load_fw: 0x110000 0x800 0xa01057f0
+nand_load_fw: 0x120000 0x800 0xa0105ff0
+nand_load_fw: 0x130000 0x800 0xa01067f0
+nand_load_fw: 0x140000 0x800 0xa0106ff0
+nand_load_fw: 0x150000 0x800 0xa01077f0
+nand_load_fw: 0x160000 0x800 0xa0107ff0
+nand_load_fw: 0x170000 0x800 0xa01087f0
+nand_load_fw: 0x180000 0x800 0xa0108ff0
+nand_load_fw: 0x190000 0x800 0xa01097f0
+nand_load_fw: 0x1a0000 0x800 0xa0109ff0
+nand_load_fw: 0x1b0000 0x800 0xa010a7f0
+nand_load_fw: 0x1c0000 0x800 0xa010aff0
+nand_load_fw: 0x1d0000 0x800 0xa010b7f0
+nand_load_fw: 0x1e0000 0x800 0xa010bff0
+nand_load_fw: 0x1f0000 0x800 0xa010c7f0
+nand_load_fw: 0x200000 0x800 0xa010cff0
+nand_load_fw: 0x210000 0x800 0xa010d7f0
+nand_load_fw: 0x220000 0x800 0xa010dff0
+nand_load_fw: 0x230000 0x800 0xa010e7f0
+nand_load_fw: 0x240000 0x800 0xa010eff0
+nand_load_fw: 0x250000 0x800 0xa010f7f0
+nand_load_fw: 0x260000 0x800 0xa010fff0
+nand_load_fw: 0x270000 0x800 0xa01107f0
+nand_load_fw: 0x280000 0x800 0xa0110ff0
+nand_load_fw: 0x290000 0x800 0xa01117f0
+nand_load_fw: 0x2a0000 0x800 0xa0111ff0
+nand_load_fw: 0x2b0000 0x800 0xa01127f0
+nand_load_fw: 0x2c0000 0x800 0xa0112ff0
+nand_load_fw: 0x2d0000 0x800 0xa01137f0
+nand_load_fw: 0x2e0000 0x800 0xa0113ff0
+nand_load_fw: 0x2f0000 0x800 0xa01147f0
+nand_load_fw: 0x300000 0x800 0xa0114ff0
+nand_load_fw: 0x310000 0x800 0xa01157f0
+nand_load_fw: 0x320000 0x800 0xa0115ff0
+nand_load_fw: 0x330000 0x800 0xa01167f0
+nand_load_fw: 0x340000 0x800 0xa0116ff0
+nand_load_fw: 0x350000 0x800 0xa01177f0
+nand_load_fw: 0x360000 0x800 0xa0117ff0
+nand_load_fw: 0x370000 0x800 0xa01187f0
+nand_load_fw: 0x380000 0x800 0xa0118ff0
+nand_load_fw: 0x390000 0x800 0xa01197f0
+nand_load_fw: 0x3a0000 0x800 0xa0119ff0
+nand_load_fw: 0x3b0000 0x800 0xa011a7f0
+nand_load_fw: 0x3c0000 0x800 0xa011aff0
+nand_load_fw: 0x3d0000 0x800 0xa011b7f0
+nand_load_fw: 0x3e0000 0x800 0xa011bff0
+nand_load_fw: 0x3f0000 0x800 0xa011c7f0
+nand_load_fw: 0x400000 0x800 0xa011cff0
+nand_load_fw: 0x410000 0x800 0xa011d7f0
+nand_load_fw: 0x420000 0x800 0xa011dff0
+nand_load_fw: 0x430000 0x800 0xa011e7f0
+nand_load_fw: 0x440000 0x800 0xa011eff0
+nand_load_fw: 0x450000 0x800 0xa011f7f0
+nand_load_fw: 0x460000 0x800 0xa011fff0
+nand_load_fw: 0x470000 0x800 0xa01207f0
+nand_load_fw: 0x480000 0x800 0xa0120ff0
+nand_load_fw: 0x490000 0x800 0xa01217f0
+nand_load_fw: 0x4a0000 0x800 0xa0121ff0
+nand_load_fw: 0x4b0000 0x800 0xa01227f0
+nand_load_fw: 0x4c0000 0x800 0xa0122ff0
+nand_load_fw: 0x4d0000 0x800 0xa01237f0
+nand_load_fw: 0x4e0000 0x800 0xa0123ff0
+nand_load_fw: 0x4f0000 0x800 0xa01247f0
+nand_load_fw: 0x500000 0x800 0xa0124ff0
+nand_load_fw: 0x510000 0x800 0xa01257f0
+nand_load_fw: 0x520000 0x800 0xa0125ff0
+nand_load_fw: 0x530000 0x800 0xa01267f0
+nand_load_fw: 0x540000 0x800 0xa0126ff0
+nand_load_fw: 0x550000 0x800 0xa01277f0
+nand_load_fw: 0x560000 0x800 0xa0127ff0
+nand_load_fw: 0x570000 0x800 0xa01287f0
+nand_load_fw: 0x580000 0x800 0xa0128ff0
+nand_load_fw: 0x590000 0x800 0xa01297f0
+nand_load_fw: 0x5a0000 0x800 0xa0129ff0
+nand_load_fw: 0x5b0000 0x800 0xa012a7f0
+nand_load_fw: 0x5c0000 0x800 0xa012aff0
+nand_load_fw: 0x5d0000 0x800 0xa012b7f0
+nand_load_fw: 0x5e0000 0x800 0xa012bff0
+nand_load_fw: 0x5f0000 0x800 0xa012c7f0
+f/w 1 read complete, jumping to 0xa0100000
+
+
+U-Boot 1.1.9.1 (Mar  5 2013 - 16:33:55)
+
+U-boot DB120
+DRAM:  Tap value selected = 0xf [0x0 - 0x1f]
+Setting 0xb8116290 to 0x20402d0f
+reach waps maximum memory size 256MB
+256 MB
+Top of RAM usable for U-Boot at: 90000000
+Reserving 247k for U-Boot at: 8ffc0000
+Reserving 384k for malloc() at: 8ff60000
+Reserving 44 Bytes for Board Info at: 8ff5ffd4
+Reserving 36 Bytes for Global Data at: 8ff5ffb0
+Reserving 128k for boot params() at: 8ff3ffb0
+Stack Pointer at: 8ff3ff98
+Now running in RAM - U-Boot at: 8ffc0000
+Atheros on-chip NAND FLash Controller Driver, Version 0.1 (c) 2010 Atheros Communications, Ltd.
+ath_nand_hw_init: ath nand status = 0x44
+Ath Nand ID[8fff017c]: ad:da:90:95:44
+ONFI HYNIX       H27U2G8F2CTR-BC
+Hynix NAND 256MiB 3,3V 8-bit [256MB]
+====== NAND Parameters ======
+sc = 0x8fff0158 bbt = 0x8ff60008 bbt_size = 0x200 nf_ctrl = 0x345
+page = 0x800 block = 0x20000 oob = 0x40
+size = 256MB
+pci_init_board: PCIe PLL not set for 40MHz refclk
+*** Warning *** : PCIe WLAN Module not found !!!
+In:    serial
+Out:   serial
+Err:   serial
+Net:   ag934x_enet_initialize...
+ 4096 bytes read: OK
+No valid address in Flash. Using fixed address
+ 4096 bytes read: OK
+No valid address in Flash. Using fixed address
+ wasp  reset mask:c02300
+WASP ----> S27 PHY
+: cfg1 0x80000000 cfg2 0x7114
+eth0: 00:03:7f:09:0b:ad
+s27 reg init
+athrs27_phy_setup ATHR_PHY_CONTROL 4 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 4 :10
+eth0 up
+WASP ----> S27 PHY
+: cfg1 0xf cfg2 0x7214
+eth1: 00:03:7f:09:0b:ad
+s27 reg init lan
+ATHRS27: resetting s27
+ATHRS27: s27 reset done
+athrs27_phy_setup ATHR_PHY_CONTROL 0 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 0 :10
+athrs27_phy_setup ATHR_PHY_CONTROL 1 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 1 :10
+athrs27_phy_setup ATHR_PHY_CONTROL 2 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 2 :10
+athrs27_phy_setup ATHR_PHY_CONTROL 3 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 3 :10
+eth1 up
+eth0, eth1
+Hit any key to stop autoboot:  0
+run Image0
+debug
+ root=31:03 console=null rootfstype=squashfs init=/etc/preinit mtdparts=ath-nand:256k(u-boot),256k(u-boot-env),2m(uImage),80m(rootfs),2m(uImage2),80m(rootfs_bak),20m(config),71m(storage),384k(dummy),128k(caldata)
+
+Loading from device 0: ath-nand (offset 0x80000)
+   Image Name:   MIPS OpenWrt Linux-2.6.31
+   Created:      2013-08-05  22:28:59 UTC
+   Image Type:   MIPS Linux Kernel Image (lzma compressed)
+   Data Size:    941386 Bytes = 919.3 kB
+   Load Address: 80002000
+   Entry Point:  80209dc0
+## Booting image at 81000000 ...
+   Image Name:   MIPS OpenWrt Linux-2.6.31
+   Created:      2013-08-05  22:28:59 UTC
+   Image Type:   MIPS Linux Kernel Image (lzma compressed)
+   Data Size:    941386 Bytes = 919.3 kB
+   Load Address: 80002000
+   Entry Point:  80209dc0
+   Verifying Checksum at 0x81000040 ...OK
+   Uncompressing Kernel Image ... OK
+No initrd
+## Transferring control to Linux (at address 80209dc0) ...
+## Giving linux memsize in bytes, 268435456
+
+Starting kernel ...
+
+Booting Atheros AR934x
+\xFF\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0find_hif: bootstrap = 0x2f051b
+WASP BootROM Ver. 1.3
+Nand Flash init
+otp_get_nand_table: 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0
+ONFI: Control Setting = 0xb45
+hdr: [0xbd004000 : 0xbd004000 : 0x3000 : 0xd0f63594]
+nand_load_fw: read 6 pages
+nand_load_fw: 0x10000 0x800 0xbd0047f0
+nand_load_fw: 0x20000 0x800 0xbd004ff0
+nand_load_fw: 0x30000 0x800 0xbd0057f0
+nand_load_fw: 0x40000 0x800 0xbd005ff0
+nand_load_fw: 0x50000 0x800 0xbd0067f0
+f/w 0 read complete, jumping to 0xbd004000
+initialize PLL & DDR
+
+sri
+Wasp 1.3
+Wasp (32bit) ddr1 init
+after wasp_ddr_initial_config
+setting for 40
+before ar7240_ddr_find_size
+reach waps maximum memory size 256MB
+after ar7240_ddr_find_size
+fw1: Nand Init
+leave FW1
+f/w 0 execution complete
+hdr: [0xa0100000 : 0xa0100000 : 0x2d000 : 0x32a6dc7c]
+nand_load_fw: read 90 pages
+nand_load_fw: 0x70000 0x800 0xa01007f0
+nand_load_fw: 0x80000 0x800 0xa0100ff0
+nand_load_fw: 0x90000 0x800 0xa01017f0
+nand_load_fw: 0xa0000 0x800 0xa0101ff0
+nand_load_fw: 0xb0000 0x800 0xa01027f0
+nand_load_fw: 0xc0000 0x800 0xa0102ff0
+nand_load_fw: 0xd0000 0x800 0xa01037f0
+nand_load_fw: 0xe0000 0x800 0xa0103ff0
+nand_load_fw: 0xf0000 0x800 0xa01047f0
+nand_load_fw: 0x100000 0x800 0xa0104ff0
+nand_load_fw: 0x110000 0x800 0xa01057f0
+nand_load_fw: 0x120000 0x800 0xa0105ff0
+nand_load_fw: 0x130000 0x800 0xa01067f0
+nand_load_fw: 0x140000 0x800 0xa0106ff0
+nand_load_fw: 0x150000 0x800 0xa01077f0
+nand_load_fw: 0x160000 0x800 0xa0107ff0
+nand_load_fw: 0x170000 0x800 0xa01087f0
+nand_load_fw: 0x180000 0x800 0xa0108ff0
+nand_load_fw: 0x190000 0x800 0xa01097f0
+nand_load_fw: 0x1a0000 0x800 0xa0109ff0
+nand_load_fw: 0x1b0000 0x800 0xa010a7f0
+nand_load_fw: 0x1c0000 0x800 0xa010aff0
+nand_load_fw: 0x1d0000 0x800 0xa010b7f0
+nand_load_fw: 0x1e0000 0x800 0xa010bff0
+nand_load_fw: 0x1f0000 0x800 0xa010c7f0
+nand_load_fw: 0x200000 0x800 0xa010cff0
+nand_load_fw: 0x210000 0x800 0xa010d7f0
+nand_load_fw: 0x220000 0x800 0xa010dff0
+nand_load_fw: 0x230000 0x800 0xa010e7f0
+nand_load_fw: 0x240000 0x800 0xa010eff0
+nand_load_fw: 0x250000 0x800 0xa010f7f0
+nand_load_fw: 0x260000 0x800 0xa010fff0
+nand_load_fw: 0x270000 0x800 0xa01107f0
+nand_load_fw: 0x280000 0x800 0xa0110ff0
+nand_load_fw: 0x290000 0x800 0xa01117f0
+nand_load_fw: 0x2a0000 0x800 0xa0111ff0
+nand_load_fw: 0x2b0000 0x800 0xa01127f0
+nand_load_fw: 0x2c0000 0x800 0xa0112ff0
+nand_load_fw: 0x2d0000 0x800 0xa01137f0
+nand_load_fw: 0x2e0000 0x800 0xa0113ff0
+nand_load_fw: 0x2f0000 0x800 0xa01147f0
+nand_load_fw: 0x300000 0x800 0xa0114ff0
+nand_load_fw: 0x310000 0x800 0xa01157f0
+nand_load_fw: 0x320000 0x800 0xa0115ff0
+nand_load_fw: 0x330000 0x800 0xa01167f0
+nand_load_fw: 0x340000 0x800 0xa0116ff0
+nand_load_fw: 0x350000 0x800 0xa01177f0
+nand_load_fw: 0x360000 0x800 0xa0117ff0
+nand_load_fw: 0x370000 0x800 0xa01187f0
+nand_load_fw: 0x380000 0x800 0xa0118ff0
+nand_load_fw: 0x390000 0x800 0xa01197f0
+nand_load_fw: 0x3a0000 0x800 0xa0119ff0
+nand_load_fw: 0x3b0000 0x800 0xa011a7f0
+nand_load_fw: 0x3c0000 0x800 0xa011aff0
+nand_load_fw: 0x3d0000 0x800 0xa011b7f0
+nand_load_fw: 0x3e0000 0x800 0xa011bff0
+nand_load_fw: 0x3f0000 0x800 0xa011c7f0
+nand_load_fw: 0x400000 0x800 0xa011cff0
+nand_load_fw: 0x410000 0x800 0xa011d7f0
+nand_load_fw: 0x420000 0x800 0xa011dff0
+nand_load_fw: 0x430000 0x800 0xa011e7f0
+nand_load_fw: 0x440000 0x800 0xa011eff0
+nand_load_fw: 0x450000 0x800 0xa011f7f0
+nand_load_fw: 0x460000 0x800 0xa011fff0
+nand_load_fw: 0x470000 0x800 0xa01207f0
+nand_load_fw: 0x480000 0x800 0xa0120ff0
+nand_load_fw: 0x490000 0x800 0xa01217f0
+nand_load_fw: 0x4a0000 0x800 0xa0121ff0
+nand_load_fw: 0x4b0000 0x800 0xa01227f0
+nand_load_fw: 0x4c0000 0x800 0xa0122ff0
+nand_load_fw: 0x4d0000 0x800 0xa01237f0
+nand_load_fw: 0x4e0000 0x800 0xa0123ff0
+nand_load_fw: 0x4f0000 0x800 0xa01247f0
+nand_load_fw: 0x500000 0x800 0xa0124ff0
+nand_load_fw: 0x510000 0x800 0xa01257f0
+nand_load_fw: 0x520000 0x800 0xa0125ff0
+nand_load_fw: 0x530000 0x800 0xa01267f0
+nand_load_fw: 0x540000 0x800 0xa0126ff0
+nand_load_fw: 0x550000 0x800 0xa01277f0
+nand_load_fw: 0x560000 0x800 0xa0127ff0
+nand_load_fw: 0x570000 0x800 0xa01287f0
+nand_load_fw: 0x580000 0x800 0xa0128ff0
+nand_load_fw: 0x590000 0x800 0xa01297f0
+nand_load_fw: 0x5a0000 0x800 0xa0129ff0
+nand_load_fw: 0x5b0000 0x800 0xa012a7f0
+nand_load_fw: 0x5c0000 0x800 0xa012aff0
+nand_load_fw: 0x5d0000 0x800 0xa012b7f0
+nand_load_fw: 0x5e0000 0x800 0xa012bff0
+nand_load_fw: 0x5f0000 0x800 0xa012c7f0
+f/w 1 read complete, jumping to 0xa0100000
+
+
+U-Boot 1.1.9.1 (Mar  5 2013 - 16:33:55)
+
+U-boot DB120
+DRAM:  Tap value selected = 0xf [0x0 - 0x1f]
+Setting 0xb8116290 to 0x20402d0f
+reach waps maximum memory size 256MB
+256 MB
+Top of RAM usable for U-Boot at: 90000000
+Reserving 247k for U-Boot at: 8ffc0000
+Reserving 384k for malloc() at: 8ff60000
+Reserving 44 Bytes for Board Info at: 8ff5ffd4
+Reserving 36 Bytes for Global Data at: 8ff5ffb0
+Reserving 128k for boot params() at: 8ff3ffb0
+Stack Pointer at: 8ff3ff98
+Now running in RAM - U-Boot at: 8ffc0000
+Atheros on-chip NAND FLash Controller Driver, Version 0.1 (c) 2010 Atheros Communications, Ltd.
+ath_nand_hw_init: ath nand status = 0x44
+Ath Nand ID[8fff017c]: ad:da:90:95:44
+ONFI HYNIX       H27U2G8F2CTR-BC
+Hynix NAND 256MiB 3,3V 8-bit [256MB]
+====== NAND Parameters ======
+sc = 0x8fff0158 bbt = 0x8ff60008 bbt_size = 0x200 nf_ctrl = 0x345
+page = 0x800 block = 0x20000 oob = 0x40
+size = 256MB
+pci_init_board: PCIe PLL not set for 40MHz refclk
+*** Warning *** : PCIe WLAN Module not found !!!
+In:    serial
+Out:   serial
+Err:   serial
+Net:   ag934x_enet_initialize...
+ 4096 bytes read: OK
+No valid address in Flash. Using fixed address
+ 4096 bytes read: OK
+No valid address in Flash. Using fixed address
+ wasp  reset mask:c02300
+WASP ----> S27 PHY
+: cfg1 0x80000000 cfg2 0x7114
+eth0: 00:03:7f:09:0b:ad
+s27 reg init
+athrs27_phy_setup ATHR_PHY_CONTROL 4 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 4 :10
+eth0 up
+WASP ----> S27 PHY
+: cfg1 0xf cfg2 0x7214
+eth1: 00:03:7f:09:0b:ad
+s27 reg init lan
+ATHRS27: resetting s27
+ATHRS27: s27 reset done
+athrs27_phy_setup ATHR_PHY_CONTROL 0 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 0 :10
+athrs27_phy_setup ATHR_PHY_CONTROL 1 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 1 :10
+athrs27_phy_setup ATHR_PHY_CONTROL 2 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 2 :10
+athrs27_phy_setup ATHR_PHY_CONTROL 3 :1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 3 :10
+eth1 up
+eth0, eth1
+Hit any key to stop autoboot:  0
+run Image0
+debug
+ root=31:03 console=null rootfstype=squashfs init=/etc/preinit mtdparts=ath-nand:256k(u-boot),256k(u-boot-env),2m(uImage),80m(rootfs),2m(uImage2),80m(rootfs_bak),20m(config),71m(storage),384k(dummy),128k(caldata)
+
+Loading from device 0: ath-nand (offset 0x80000)
+   Image Name:   MIPS OpenWrt Linux-2.6.31
+   Created:      2013-08-05  22:28:59 UTC
+   Image Type:   MIPS Linux Kernel Image (lzma compressed)
+   Data Size:    941386 Bytes = 919.3 kB
+   Load Address: 80002000
+   Entry Point:  80209dc0
+## Booting image at 81000000 ...
+   Image Name:   MIPS OpenWrt Linux-2.6.31
+   Created:      2013-08-05  22:28:59 UTC
+   Image Type:   MIPS Linux Kernel Image (lzma compressed)
+   Data Size:    941386 Bytes = 919.3 kB
+   Load Address: 80002000
+   Entry Point:  80209dc0
+   Verifying Checksum at 0x81000040 ...OK
+   Uncompressing Kernel Image ... OK
+No initrd
+## Transferring control to Linux (at address 80209dc0) ...
+## Giving linux memsize in bytes, 268435456
+
+Starting kernel ...
+
+Booting Atheros AR934x
+\xFF\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
